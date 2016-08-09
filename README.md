@@ -18,6 +18,8 @@ And updates the following file:
 
 1.	Clone or download this repository.
 2.	Add or merge the files listed above.
+  * Add the 2 hypr and the png files into their respective/new directories.
+  * I suggest just copying and pasting the necessary widget objects in theme.json (lines 13-52) into your current theme's theme.json.
 3.	Run Grunt to build the theme.
 4.	Upload the resulting ZIP file to Mozu Dev Center.
 5.	Install the updated theme to the sandbox you’re working in.
