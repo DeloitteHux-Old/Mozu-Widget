@@ -1,0 +1,54 @@
+{
+	"about": {
+		"author": "Magnetic Media Online, Inc.",
+		"defaultLanguage": "en-US",
+		"extends": null,
+		"isDesktop": true,
+		"isMobile": false,
+		"isTablet": false,
+		"name": "Magnetic_Widgets",
+		"allowProduction": true,
+    },
+	"widgets": [
+		{
+			"defaultConfig": {
+				"title": "Magnetic Connector"
+			},
+			"displayName": "Magnetic Connector",
+			"displayTemplate": "magnetic/magnetic-connector",
+			"editViewFields": [
+				{
+					"anchor": "100%",
+					"fieldLabel": "Identifier",
+					"name": "identifier",
+					"xtype": "mz-input-text"
+				}
+			],
+			"icon": "/resources/admin/widgets/MagneticLogo.png",
+			"id": "magneticconnector",
+			"validPageTypes": [
+				"*"
+			]
+		},
+		{
+			"defaultConfig": {
+				"title": "Magnetic Recommendation Zone"
+			},
+			"displayName": "Magnetic Rec Zone",
+			"displayTemplate": "magnetic/magnetic-recommendation",
+			"editViewFields": [
+				{
+					"anchor": "100%",
+					"fieldLabel": "Zone Number",
+					"name": "zone",
+					"xtype": "mz-input-number"
+				}
+			],
+			"icon": "/resources/admin/widgets/MagneticLogo.png",
+			"id": "magneticrecommendation",
+			"validPageTypes": [
+				"*"
+			]
+		}
+	]
+}

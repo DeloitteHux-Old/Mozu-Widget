@@ -1,0 +1,5 @@
+{% if SiteContext.IsEditMode %}
+<span>This widget should be placed on default page to fire Magnetic footer code on all pages</span>
+{% else %}
+<script> (function(d,c,x,s,e) { s = d.createElement(x); s.src = '//t.p.mybuys.com/clients/' + c + '/js/mybuys_qs.js'; s.async = true; s.type = 'text/javascript'; e = d.getElementsByTagName(x)[0]; e.parentNode.insertBefore(s, e); })(document,'{{model.config.identifier|upper}}','script'); </script>
+{% endif %}

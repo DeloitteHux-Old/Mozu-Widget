@@ -1,0 +1,1 @@
+<div mybuyszone="{{model.config.zone}}"></div>
