@@ -34,7 +34,7 @@ And updates the following file:
 6.	Click **Save**.
 
 
-## Add the Magnetic Code Widget to Your Site
+## Add Configured Recommendation Zone to Your Site
 1.	In Admin, go to **Main > Site Builder > Editor**.
 2.	In the site tree, select page recommendation zone is configured for (e.g. product page).
 3.	Switch to the **Widgets** view.
